@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<div align="center" >
+		<h1> {{student.Name}}'s Information </h1><br></br>
+			<h2> Name: {{student.Name}} </h2>
+			<h2> Number: {{student.Number}} </h2>
+			<h2> Marks: {{student.Marks}} </h2>
+			<h2> Address: {{student.Address}} </h2>
+			<a href="/update/{{student.id}}" class="btn btn-lg btn-primary"> Update</a><br><br>
+			<a href="/delete/{{student.id}}" class="btn btn-lg btn-danger"> Delete</a>
+    </div>
+</body>
+</html>
